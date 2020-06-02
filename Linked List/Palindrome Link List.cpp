@@ -9,6 +9,7 @@ For example,
 List 1-->2-->1 is a palindrome.
 List 1-->2-->3 is not a palindrome.
 */
+
 ListNode* reverse(ListNode *head)
  {
      if(head->next==NULL || head==NULL)
