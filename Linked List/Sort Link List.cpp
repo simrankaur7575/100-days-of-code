@@ -21,9 +21,8 @@ Returned list : 1 -> 3 -> 4 -> 5
             if(l1 == NULL) return l2;
             if(l2 == NULL) return l1;
 
-            ListNode* head = NULL;    // head of the list to return
-
-            // find first element (can use dummy node to put this part inside of the loop)
+            ListNode* head = NULL;
+     
             if(l1->val < l2->val) {
                 head = l1;
                 l1 = l1->next;
@@ -32,7 +31,7 @@ Returned list : 1 -> 3 -> 4 -> 5
                 l2 = l2->next;
             }
 
-            ListNode* p = head;     // pointer to form new list
+            ListNode* p = head;
 
             while(l1 && l2){
                 if(l1->val < l2->val) {
@@ -45,7 +44,6 @@ Returned list : 1 -> 3 -> 4 -> 5
                 p = p->next;
             }
 
-            // add the rest of the tail, done!
             if (l1) {
                 p->next=l1;
             } else {
@@ -60,7 +58,7 @@ ListNode* Solution::sortList(ListNode* head) {
             if (head == NULL || head->next == NULL)
                 return head;
 
-            // find the middle place
+    
             ListNode *p1 = head;
             ListNode *p2 = head->next;
             while(p2 && p2->next) {
