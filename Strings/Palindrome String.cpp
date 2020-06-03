@@ -9,7 +9,6 @@ Example:
 
 Return 0 / 1 ( 0 for false, 1 for true ) for this problem
 */
-
 int Solution::isPalindrome(string A) {
     int x=A.size()-1;
     int i=0;
