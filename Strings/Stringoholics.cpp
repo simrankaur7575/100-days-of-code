@@ -20,7 +20,8 @@ You have to find the minimum time, where maximum number of strings are equal to 
 As this time can be very large, give the answer modulo 109+7.
 
 Note: Your solution will run on multiple test cases so do clear global variables after using them.
-*/
+
+ */
 int Solution::solve(vector<string> &A) {
     long long n=A.size();
 vector<int> v(n);
