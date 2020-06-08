@@ -5,8 +5,8 @@ QUES - Given a collection of integers that might contain duplicates, S, return a
 Elements in a subset must be in non-descending order.
 The solution set must not contain duplicate subsets.
 The subsets must be sorted lexicographically.
-
 */
+
 void helper(vector<int> &A,vector<vector<int> > &r, vector<int> &s,int ind)
 {
     r.push_back(s);
