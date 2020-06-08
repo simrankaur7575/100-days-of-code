@@ -11,6 +11,7 @@ A string which reads the same backwards. More formally, S is palindrome if rever
 
 Incase of conflict, return the substring which occurs first ( with the least starting index ).
 */
+
 string Solution::longestPalindrome(string A) {
     
     if(A == "") return "";
