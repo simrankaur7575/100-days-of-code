@@ -4,7 +4,6 @@ QUES - Compare two version numbers version1 and version2.
 If version1 > version2 return 1,
 If version1 < version2 return -1,
 otherwise return 0.
-
 */
 int Solution::compareVersion(string string1, string string2) {
 int i = 0; 
