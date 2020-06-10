@@ -4,6 +4,7 @@ The expectation is that you will ask the correct set of clarifications or state 
 
 Implement atoi to convert a string to an integer.
 */
+
 bool checkstring(string N)
 {
 if(48<=N[0]<=57 || N[0]=='+' ||N[0]=='-')
