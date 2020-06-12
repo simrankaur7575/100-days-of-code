@@ -8,7 +8,7 @@ Example:
 Given “25525511135”,
 
 return [“255.255.11.135”, “255.255.111.35”]. (Make sure the returned strings are sorted in order)
- 
+
 */
 void myfun(string &A, int &n,int i, int dots, string cur_ip, int cur, vector<string> &res,int cur_len)
 {
