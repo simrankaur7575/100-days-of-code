@@ -7,6 +7,7 @@ a = "100"
 
 b = "11"
 Return a + b = “111”.
+ 
 */
 string Solution::addBinary(string A, string B) {
     int n = A.length();
