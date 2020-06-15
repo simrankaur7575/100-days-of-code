@@ -4,6 +4,7 @@ QUES - Given two numbers represented as strings, return multiplication of the nu
  Note: The numbers can be arbitrarily large and are non-negative.
 Note2: Your answer should not have leading zeroes. For example, 00 is not a valid answer.
 */
+
 string multiply_digit(string b, char a){
 
 int carry=0;
