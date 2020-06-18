@@ -7,6 +7,7 @@ Every inner brace should increase one indentation to the following lines.
 Every close brace should decrease one indentation to the same line and the following lines.
 The indents can be increased with an additional ‘\t’
 */
+
 vector<string> Solution::prettyJSON(string A)
 {
 vector<string> ans;
