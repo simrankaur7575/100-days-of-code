@@ -7,6 +7,7 @@ The 32-bit integer 11 has binary representation
 
 00000000000000000000000000001011
 */
+
 int Solution::numSetBits(unsigned int A) {
 int count=0;
 while(A)
