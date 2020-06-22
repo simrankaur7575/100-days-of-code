@@ -3,6 +3,7 @@ QUES - Given an array of integers, every element appears twice except for one. F
 
 Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 */
+
 int Solution::singleNumber(const vector<int> &A) {
      int n = A.size();
        int result = 0;
