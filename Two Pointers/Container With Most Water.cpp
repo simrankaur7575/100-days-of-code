@@ -5,6 +5,7 @@ where each represents a point at coordinate (i, ai).
 
 Find two lines, which together with x-axis forms a container, such that the container contains the most water.
  */
+
  int maxArea(vector<int> &height) {
             int end = height.size() - 1, start = 0;
             int maxVol = 0;
