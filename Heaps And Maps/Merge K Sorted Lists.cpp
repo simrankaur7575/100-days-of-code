@@ -1,6 +1,7 @@
 /*
 QUES - Merge k sorted linked lists and return it as one sorted list.
 */
+
 if (A.empty()) return nullptr;
 // build map
 map<int, queue<ListNode*>> sorted;
