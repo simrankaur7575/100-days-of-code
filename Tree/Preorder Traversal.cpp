@@ -1,7 +1,6 @@
 /*
 QUES - Given a binary tree, return the preorder traversal of its nodes’ values.
 */
-
 vector<int> preorderTraversal(TreeNode *root) {
             vector<int> res;
             stack<TreeNode*> nodeStack;
