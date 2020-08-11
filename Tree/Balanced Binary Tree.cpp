@@ -11,7 +11,6 @@ return 0;
  int rh = Height(A->right);
  return 1 + max(lh , rh);
 }
-
 int Solution::isBalanced(TreeNode* A) {
 
 if(A==NULL){
