@@ -3,6 +3,7 @@ QUES - Implement an iterator over a binary search tree (BST). Your iterator will
 
 The first call to next() will return the smallest number in BST. Calling next() again will return the next smallest number in the BST, and so on.
 */
+
 void GetData(TreeNode *root,vector<int> &v)
 {
 if(root==NULL) return;
