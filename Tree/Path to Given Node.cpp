@@ -13,7 +13,6 @@ You need to find the path from Root to a given node B.
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
- 
  bool helper(TreeNode* A, int B, vector<int> &v)
  {
      if(A->val==B)
