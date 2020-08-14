@@ -16,6 +16,7 @@ if(prev!=NULL){
         second = node;
     }
 }
+    
 prev = node;
 inorder(node->right, first, second, prev);
 }
