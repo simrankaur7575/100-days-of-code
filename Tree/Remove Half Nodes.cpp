@@ -13,7 +13,6 @@ You have to remove all the half nodes and return the final binary tree.
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
- 
 void helper(TreeNode* root,TreeNode* p,char c)
  {
      if(root->left!=NULL && root->right!=NULL)
