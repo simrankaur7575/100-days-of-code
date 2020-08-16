@@ -9,7 +9,6 @@ vector<int> ans;
 TreeNode* root = A;
 while(true){
     
-    
     while(root){
         s.push(root);
         root = root->left;
