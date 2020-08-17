@@ -13,6 +13,7 @@ Go through the example and image for more details.
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
 vector<vector<int> > Solution::verticalOrderTraversal(TreeNode* A) {
     vector< vector<int>> ans;
 
