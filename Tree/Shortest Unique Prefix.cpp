@@ -13,6 +13,7 @@ struct Node {
     }
 };
 
+
 void insert(string s, Node* trie) {
     for(char a: s) {
         int k = a - 'a';
