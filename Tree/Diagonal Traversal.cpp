@@ -12,6 +12,7 @@ Given a Binary Tree A containing N nodes, return all diagonal elements in a bina
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
 vector<int> Solution::solve(TreeNode* A) {
     vector<int> v;
     queue<TreeNode *> q;
